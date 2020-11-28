@@ -1,0 +1,36 @@
+#list,#edit {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#list td, #list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align:center;
+}
+#list tr:nth-child(even){background-color: #efeff4;}
+#list tr:hover {background-color: #ddd;}
+#list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: coral;
+  color: white;
+}
+
+#edit th{
+	padding-top: 12px;
+  	padding-bottom: 12px;
+  	text-align: center;
+  	background-color:coral;
+  	color: white;
+  	border:1px solid #ddd;
+}
+
+#edit tr{
+	 border: 1px solid #ddd;
+}
+
+input,textarea{
+	border:none;
+}
